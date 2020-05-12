@@ -102,3 +102,11 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+
+# Ignoring artifacts from the distribution / build process
+build/
+dist/
+*.egg-info
+
+.env
